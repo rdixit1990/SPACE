@@ -1,0 +1,82 @@
+.formDiv {width: 70%; border-right: 2px solid lightgray; float: left;}
+.displayDiv {float: right; width: 30%;}
+.percent-div { margin-top: 30px; margin-left: 75px;}
+#components-layout-demo-top-side .logo {width: 120px;height: 31px;background: rgba(255, 255, 255, 0.2);margin: 16px 28px 16px 0;float: left;}
+.saama-logo-col { width: 40px !important;position: relative;top: -49px;left: 14px;border: 0px solid;}
+.ant-badge-count { margin-top: 18px;}
+.notify-div { float: right;}
+.ant-layout-sider-children { margin-top: 63px !important;height: 98vh !important;}
+.saama-logo {width: 100px !important;position: absolute;top: 15px;float: left;margin-left: 15px;}
+.back-btn-normal {color: white;position: relative;left: 85%;font-size: 18px; cursor: pointer;}
+.back-btn-collapsed {color: white;position: relative;left: 40%;cursor: pointer;}
+.ant-tabs-nav-wrap {width: 70% !important;flex: none !important;}
+.tool-bar { font-size: 20px; margin-bottom: 10px;}
+.tool-bar span { margin-right: 15px; cursor: pointer;color: #1890ff;}
+/* Customize website's scrollbar like Mac OS Not supports in Firefox and IE */ /* total width */
+::-webkit-scrollbar {background-color:#fff;width:16px}
+/* background of the scrollbar except button or resizer */
+::-webkit-scrollbar-track { background-color:#fff;}
+/* scrollbar itself */
+::-webkit-scrollbar-thumb { background-color:#babac0;border-radius:16px;border:4px solid #fff;}
+/* set button(top and bottom of the scrollbar) */
+::-webkit-scrollbar-button {display:none}
+.ant-drawer-body {float: left;margin-left: -50px;}
+.ant-drawer-content-wrapper { width: 750px !important;}
+#components-layout-demo-custom-trigger .trigger {font-size: 18px;line-height: 64px;padding: 0 24px;cursor: pointer;transition: color 0.3s;}
+#components-layout-demo-custom-trigger .trigger:hover {color: #1890ff;}
+#components-layout-demo-custom-trigger .logo {height: 32px;background: rgba(255, 255, 255, 0.2);margin: 16px;}
+.site-layout .site-layout-background { background: #fff;}
+.anticon-menu-fold , .anticon-menu-unfold{ margin-left: 20px; font-size: 20px;}
+.ant-avatar-circle{ float: right;margin-top: 17px !important; margin-right: 0px !important;font-size: 15px;cursor: pointer !important;color: #fff !important;background-color: #1890ff !important;}
+.margin-top-5 { margin-top: 5px !important;}
+.margin-top-10 { margin-top: 10px !important;}
+.margin-top-20 { margin-top: 20px !important;}
+.margin-top-30 { margin-top: 30px !important;}
+.margin-top-40 { margin-top: 40px !important;}
+.margin-top-70 { margin-top: 70px !important;}
+.info-text { margin-left: 50px;}
+.approve-req-widget {font-size: 54px;float: left;color: indianred;font-weight: bold;}
+.job-managment .ant-card-head { background: #87CEFA	;}
+/*.ant-tree-list-holder {background: #001529 !important;color: white !important;}
+.ant-tree-treenode:hover {font-size: 14px !important;color: #001529 !important;}*/
+.anticon-bell {font-size: 28px;position: relative;float: right;/* float: right; *//* position: relative; *//* top: 6px; *//* left: 1352px; */top: 20px !important;position: relative;left: -75px;}
+.ant-table-tbody { font-size: 13px !important;}
+.site-layout { overflow-x: hidden;}
+.app-heading {float: left;margin-left:10px;font-size: 20px;margin-top: -5px;font-weight: 650;}
+.ant-tree-list { font-size: 13px;}
+.jm-actions-tabl3 { font-size: 15px;cursor: pointer;}
+.ant-layout-content { margin: 68px 14px 11px 63px !important;}
+.icntray{font-size: 18px;cursor: pointer;}
+.icntray .anticon { margin-left: 5px;}
+.table-File { margin-left: 5px;cursor: pointer;}
+.ant-tree-indent {background-color: #fff !important;}
+.text-align-center {text-align: center;}
+.workspace-col { cursor: pointer;}
+.ant-modal-content { width: 700px !important;/*height: 500px !important;*/}
+.repo-main-col { min-height: 550px;height: auto;}
+.loading-indicator:before {content: '';background: #000000cc;position: fixed;width: 100%;height: 100%;top: 0;left: 0;z-index: 1000;}
+.loading-indicator:after {content: 'Please wait...';position: fixed;width: 100%;top: 50%;left: 0;z-index: 1001;color:white;text-align:center;font-weight:700;font-size:1.5rem;}
+.ant-tree-node-content-wrapper-open .ant-tree-iconEle{ display: none !important;}
+/* Editor */
+#pace-code-editor {width: 1000px !important;height: 400px !important;}
+.ant-upload-list-item-error, .ant-upload-list-item-error .ant-upload-text-icon > .anticon, .ant-upload-list-item-error .ant-upload-list-item-name {color: gray;}
+.ant-upload-list-text .ant-upload-list-item-card-actions, .ant-upload-list-picture .ant-upload-list-item-card-actions { color: gray !important;}
+.disable-file-edit {pointer-events:none;}
+.margin-bottom-20 { margin-bottom: 20px;}
+.jobList {list-style-type:none;}
+.no-bullets-ui {list-style-type:none;}
+.ant-menu-overflow { margin-left: -20px;}
+.ant-tag { border-radius: 0px;}
+.ant-steps-item-icon .ant-steps-icon { font-size: 40px !important;}
+.ant-steps-icon .anticon-cloud-server { color: #faa307 !important;}
+.ant-steps-icon .anticon-cloud-sync { color: #2c7da0 !important;}
+#ace-editor { width: 950px !important;}
+.automl .ant-steps-icon { font-size: 15px !important;}
+.ant-list-item .preview .anticon { margin-left: 10px;}
+.auto-ml-success .ant-statistic-content-value-int { color: #2a9d8f;font-weight: 500;font-size: 35px;}
+.auto-ml-progress .ant-statistic-content-value-int { color: #e9c46a;font-weight: 500;font-size: 35px;}
+.auto-ml-failed .ant-statistic-content-value-int { color: #bb3e03;font-weight: 500;font-size: 35px;}
+.ant-card-bordered { border : 1px solid gray !important;}
+.margin-top-5 { margin-top: 5px;}
+.directoryCol { overflow:scroll;max-height: 700px;}
+.cursor-pointer { cursor: pointer;}
